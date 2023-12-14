@@ -23,8 +23,15 @@ const styles = StyleSheet.create({
     dataContainer: {
         marginTop: 50,
     },
+
+    customBorder:{
+        borderColor:COLORS.blue,
+        borderWidth: 3,
+        backgroundColor:COLORS.white,
+       
+    },
     textinput: {
-        color: COLORS.white,
+        color: COLORS.blue,
         fontSize: SIZES.h3,
         borderColor: COLORS.lightGrey,
         borderWidth: 1,
@@ -64,7 +71,7 @@ const styles = StyleSheet.create({
         marginRight: 10,
     },
     text: {
-        color: COLORS.white,
+        color: COLORS.blue,
         textAlign: 'center',
         marginTop: 10,
         fontWeight: '600',

@@ -19,9 +19,10 @@ const SignUpScreen = ({ navigation }) => {
                         <Text style={styles.title}>Get Started</Text>
                         <Text style={styles.subtitle}>Sign up to continue</Text>
                     </View>
+                    <View style={styles.customBorder}>
                     <View style={styles.dataContainer}>
                         <TextInput placeholder='Email' style={styles.textinput} placeholderTextColor={COLORS.blue} />
-                        <TextInput placeholder='Password' style={styles.textinput} placeholderTextColor={COLORS.white} />
+                        <TextInput placeholder='Password' style={styles.textinput} placeholderTextColor={COLORS.blue} />
                     </View>
                     <View style={styles.btnContainer}>
                         <TouchableOpacity onPress={() => navigation.navigate('Signin')}>
@@ -35,6 +36,7 @@ const SignUpScreen = ({ navigation }) => {
                         <TouchableOpacity onPress={() => navigation.navigate('Signin')}>
                             <Text style={styles.text}>Already have an account? | Sign In</Text>
                         </TouchableOpacity>
+                    </View>
                     </View>
                 </ScrollView>
             </ImageBackground>

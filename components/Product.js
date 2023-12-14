@@ -35,7 +35,7 @@ export default class Product extends React.Component{
                       fontWeight:"bold",
                       fontSize:16
                   }}>
-                      290 Calories
+                      Dụng cụ
                   </Text>
               </View>
               <Image
@@ -61,7 +61,7 @@ export default class Product extends React.Component{
                   paddingHorizontal:10,
                   color:"#848385"
               }}>
-                  Beef burger
+                  Nhấn để xem thêm
               </Text>
           </TouchableOpacity>
         )

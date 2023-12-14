@@ -34,7 +34,7 @@ const Tab = createBottomTabNavigator();
       
     <Tab.Screen name="Acount" component={Acount} 
        options={{
-        tabBarLabel: 'Acount',
+        tabBarLabel: 'Account',
         tabBarIcon: ({ color, size }) => (
           <Icon.User width={size} height={size} stroke={color} fill={color} />
         ),

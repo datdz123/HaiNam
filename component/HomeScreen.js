@@ -26,7 +26,6 @@ export default class Home extends React.Component {
                         alignItems: "center"
                     }}>
 
-
                     </View>
 
                 </View>
@@ -89,7 +88,7 @@ export default class Home extends React.Component {
                             fontSize: 18,
                             paddingLeft: 10
                         }}>
-                            Burrito
+                            Cuốc
                         </Text>
                     </View>
 
@@ -111,7 +110,7 @@ export default class Home extends React.Component {
                             fontSize: 18,
                             paddingLeft: 10
                         }}>
-                            Salads
+                            Chậu cây
                         </Text>
                     </View>
 
@@ -133,14 +132,14 @@ export default class Home extends React.Component {
                             fontSize: 18,
                             paddingLeft: 10
                         }}>
-                            Pizza
+                            Chất hữu cơ
                         </Text>
                     </View>
                 </ScrollView>
                 <View style={{ flex: 1, paddingHorizontal: 20 }}>
       <View style={{ alignItems: "center", flexDirection: "row", marginTop: 40 }}>
         <View style={{ flex: 1 }}>
-          <Text style={{ fontSize: 22, fontWeight: "bold" }}>New Products</Text>
+          <Text style={{ fontSize: 22, fontWeight: "bold" }}>Sản phẩm mới</Text>
         </View>
         <View style={{ alignItems: "flex-end" }}>
           <Icon name="dots-three-horizontal" size={25} color="#848385" />
@@ -152,13 +151,13 @@ export default class Home extends React.Component {
         <View style={{ flexDirection: "row", marginTop: 20 }}>
           <Product
             image={require('../assets/tool2.jpg')}
-            title="Smokehouse"
+            title="Xẻng nông nghiệp"
             price="12.99"
             onPress={() => this.props.navigation.navigate('Detail')}
           />
           <Product
             image={require('../assets/tool3.jpg')}
-            title="Honey Chilli"
+            title="Cuốc nhỏ"
             price="10.99"
             style={{ marginLeft: 15 }}
             onPress={() => this.props.navigation.navigate('Detail')}
@@ -167,13 +166,13 @@ export default class Home extends React.Component {
 
         <View style={{ flexDirection: "row", marginTop: 20 }}>
           <Product
-            image={require('../assets/tool3.jpg')}
-            title="Adios Pizza"
+            image={require('../assets/treepot3.jpg')}
+            title="Chậu cây cảnh"
             price="11.99"
           />
           <Product
-            image={require('../assets/tool.png')}
-            title="Burrito"
+            image={require('../assets/deco.jpg')}
+            title="Đồ trang trí vườn"
             price="10.99"
             style={{ marginLeft: 15 }}
           />

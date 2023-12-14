@@ -16,7 +16,7 @@ const Intro = ({ navigation }) => {
             <View style={{ flex: 1 }}>
                 <View>
                     <Image
-                        source={require("../assets/hero1.jpg")}
+                        source={require("../assets/treepot1.jpg")}
                         style={{
                             height: 100,
                             width: 100,
@@ -32,7 +32,7 @@ const Intro = ({ navigation }) => {
                     />
 
                     <Image
-                        source={require("../assets/hero3.jpg")}
+                        source={require("../assets/phanbon1.jpg")}
                         style={{
                             height: 100,
                             width: 100,
@@ -49,7 +49,7 @@ const Intro = ({ navigation }) => {
                     />
 
                     <Image
-                        source={require("../assets/hero1.jpg")}
+                        source={require("../assets/tool.png")}
                         style={{
                             width: 100,
                             height: 100,
@@ -66,10 +66,10 @@ const Intro = ({ navigation }) => {
                     />
 
                     <Image
-                        source={require("../assets/hero2.jpg")}
+                        source={require("../assets/treepot.png")}
                         style={{
-                            height: 200,
-                            width: 200,
+                            height: 175,
+                            width: 150,
                             borderRadius: 20,
                             position: "absolute",
                             top: 110,
@@ -88,35 +88,36 @@ const Intro = ({ navigation }) => {
                 <View style={{
                     paddingHorizontal: 22,
                     position: "absolute",
-                    top: 400,
+                    top: 350,
                     width: "100%"
                 }}>
                     <Text style={{
-                        fontSize: 50,
+                        fontSize: 45,
                         fontWeight: 800,
                         color: COLORS.white
-                    }}>Let's Get</Text>
+                    }}>Chào mừng đến với</Text>
                     <Text style={{
-                        fontSize: 46,
+                        fontSize: 40,
                         fontWeight: 800,
                         color: COLORS.white
-                    }}>Started</Text>
+                    }}>Shop làm vườn</Text>
 
                     <View style={{ marginVertical: 22 }}>
                         <Text style={{
-                            fontSize: 16,
+                            fontSize: 20,
                             color: COLORS.white,
-                            marginVertical: 4
+                            marginVertical: 4,
+                            fontWeight: 800
                         }}>Đồ làm vườn</Text>
                         <Text style={{
                             fontSize: 16,
                             color: COLORS.white,
-                        }}>15</Text>
+                        }}>Chào mừng bạn đến với Shop làm vườn - nơi dành cho những người yêu thích làm vườn! Chúng tôi là một cửa hàng đặc biệt chuyên cung cấp các sản phẩm và dịch vụ dành cho người yêu thích nghệ thuật làm vườn.</Text>
                     </View>
 
                     <Button
-                        title="Join Now"
-                        onPress={() => navigation.navigate("Home")}
+                        title="Bắt đầu mua sắm"
+                        onPress={() => navigation.navigate("Signin")}
                         style={{
                             marginTop: 22,
                             width: "100%"

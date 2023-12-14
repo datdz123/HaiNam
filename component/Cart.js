@@ -43,7 +43,7 @@ export default function Cart()  {
             <Icon.ArrowLeft strokeWidth={3} stroke="white" />
           </TouchableOpacity>
         </View>
-        <Text style={{textAlign:'center',fontSize:30 ,marginBottom:20,color:'#fff'}}>My cart</Text>
+        <Text style={{textAlign:'center',fontSize:30 ,marginBottom:20,color:'#fff'}}>Giỏ hàng của tôi</Text>
         <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ }}>
           <View
             style={{
@@ -60,14 +60,14 @@ export default function Cart()  {
               marginBottom: 16,
             }}
           >
-            <Text style={{ fontWeight: 'bold', fontSize: 18 }}>2x</Text>
+            <Text style={{ fontWeight: 'bold', fontSize: 18 }}> </Text>
   
             <Image
               source={require('../assets/tool.png')}
               style={{ height: 56, width: 56, borderRadius: 28 }}
             />
   
-            <Text style={{ flex: 1, marginLeft: 16, fontSize: 16 }}>xúc xẻng</Text>
+            <Text style={{ flex: 1, marginLeft: 16, fontSize: 16 }}>Xẻng nông nghiệp</Text>
             <TouchableOpacity
               style={{
                 padding: 12,
@@ -77,7 +77,7 @@ export default function Cart()  {
             >
               <Icon.Minus stroke="red" height={20} width={20} strokeWidth={2} />
             </TouchableOpacity>
-            <Text style={{ fontWeight: 'bold', fontSize: 16, marginLeft: 8 }}>$10</Text>
+            <Text style={{ fontWeight: 'bold', fontSize: 16, marginLeft: 8 }}>1</Text>
             <TouchableOpacity
               style={{
                 padding: 12,
@@ -91,16 +91,16 @@ export default function Cart()  {
         </ScrollView>
         <View style={{ backgroundColor: 'themeColors.bgColor(0.2)', padding: 16, borderRadius: 20,marginTop:100 }}>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8 }}>
-            <Text style={{ color: '#333', fontSize: 16 ,color:'#fff'}}>Subtotal</Text>
-            <Text style={{ color: '#333', fontSize: 16 ,color:'#fff' }}>12 VND</Text>
+            <Text style={{ color: '#333', fontSize: 16 ,color:'#fff'}}>Tiền sản phẩm</Text>
+            <Text style={{ color: '#333', fontSize: 16 ,color:'#fff' }}>120.000 VND</Text>
           </View>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8 }}>
-            <Text style={{ color: '#333', fontSize: 16,color:'#fff' }}>Delivery Fee</Text>
-            <Text style={{ color: '#333', fontSize: 16,color:'#fff' }}>2 VND</Text>
+            <Text style={{ color: '#333', fontSize: 16,color:'#fff' }}>Phí giao hàng</Text>
+            <Text style={{ color: '#333', fontSize: 16,color:'#fff' }}>20.000 VND</Text>
           </View>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8 }}>
-            <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 18,color:'#fff' }}>Order Total</Text>
-            <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 18 ,color:'#fff'}}>14 VND</Text>
+            <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 18,color:'#fff' }}>Tổng tiền</Text>
+            <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 18 ,color:'#fff'}}>140.000 VND</Text>
           </View>
           <View style={{marginTop:100}}>
             <TouchableOpacity
@@ -115,7 +115,7 @@ export default function Cart()  {
               }}
             >
               <Text style={{ textAlign: 'center', fontWeight: 'bold', color: '#ffffff', fontSize: 20 }}>
-                Place Order
+                Mua hàng
               </Text>
             </TouchableOpacity>
           </View>

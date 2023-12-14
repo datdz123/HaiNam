@@ -43,7 +43,7 @@ export default class Detail extends React.Component {
     };
   
     subtractQuantity = () => {
-      if (this.state.quantity > 0) {
+      if (this.state.quantity > 1) {
         this.setState({ quantity: this.state.quantity - 1 });
       }
     };
@@ -67,9 +67,7 @@ export default class Detail extends React.Component {
                         marginHorizontal: 20
                     }}>
                         <View style={{ width: "10%" }}>
-                            <TouchableOpacity
-                                onPress={() => this.props.navigation.goBack()}
-                            >
+                            <TouchableOpacity onPress={() => this.props.navigation.goBack()}>
                                 {/* <Image
                                                        source={require('../assets/tool.png')}
                                 /> */}
@@ -144,19 +142,19 @@ export default class Detail extends React.Component {
                             <Text style={{
                                 fontWeight: "bold",
                                 fontSize: 25
-                            }}>Smokehouse </Text>
+                            }}>Xẻng nông nghiệp </Text>
                             <Text style={{
                                 fontWeight: "bold",
                                 fontSize: 15,
                                 color: "#a4a4a9"
                             }}>
-                                Beef burger
+                                Xẻng đa dụng
                             </Text>
                         </View>
                         <Text style={{
                             fontWeight: "bold",
                             fontSize: 28,
-                            marginLeft: 80
+                            marginLeft: 40
                         }}>$12.99</Text>
                     </View>
                     <Text style={{
@@ -165,7 +163,7 @@ export default class Detail extends React.Component {
                         marginTop: 30,
                         marginHorizontal: 20
                     }}>
-                        Ingredients
+                        Các sản phẩm liên quan
                     </Text>
 
                     <ScrollView
@@ -257,7 +255,7 @@ export default class Detail extends React.Component {
                         marginTop: 30,
                         marginHorizontal: 20
                     }}>
-                        Details
+                        Mô tả
                     </Text>
                     <Text style={{
                         color: "#a4a4a9",
@@ -267,7 +265,7 @@ export default class Detail extends React.Component {
                         marginHorizontal: 20,
                         textAlign: "justify"
                     }}>
-                        Xúc Đất
+                        Xẻng có thể được sử dụng để tạo lỗ hoặc rãnh trên đất để trồng cây.
                     </Text>
                 </ScrollView>
                 <View style={{

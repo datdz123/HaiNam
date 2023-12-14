@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
            
     },
     textinput: {
-        color: COLORS.white,
+        color: COLORS.blue,
         fontSize: SIZES.h3,
         borderColor: COLORS.lightGrey,
         borderWidth: 1,
