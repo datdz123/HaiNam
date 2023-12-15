@@ -7,6 +7,8 @@ import Detail from './component/Detail';
 import Intro from './component/Intro';
 import BottomNavigator from './component/bottom/bottomNavigator';
 import Cart from './component/Cart';
+import EditUserInfoScreen from './component/EditUser';
+import LoveDetail from './component/LoveDetail';
 
 const Stack = createStackNavigator(); // Add this line to create a stack navigator
 
@@ -21,6 +23,9 @@ const Stack = createStackNavigator(); // Add this line to create a stack navigat
         <Stack.Screen name="Intro" component={Intro} />
         <Stack.Screen name="Home" component={BottomNavigator} />
         <Stack.Screen name="Cart" component={Cart} />
+        <Stack.Screen name="EditUser" component={EditUserInfoScreen} />
+        <Stack.Screen name="LoveDetail" component={LoveDetail} />
+
 
       </Stack.Navigator>
       </NavigationContainer>
